@@ -36,4 +36,16 @@ t-SVD with shrinkage
 __Result:__
 
 the low rank term L=P*Q, where P is n*r*n and Q is r*n*n and their elements are sampled independently from a normal 
-distribution(0,1/n). The sparse term follows a Bernoulli model(1,0,-1)
+distribution(0,1/n). The sparse term follows a Bernoulli model(1,0,-1). This table demonstrates recovery result for numerical matrices with varying sizes by TRPCA
+
+![Recovery result for numerical matrices with varying sizes by RPCA](images/table.png)
+
+Three frames from the surveillance video. (a). Frames from the original video. (b). The low rank and (c). sparse terms 
+decomposed by RPCA
+
+![Three frames from the surveillance video](images/motion.png)
+
+Removing random noise from images by TRPCA. The (a). corrupted image (b). recovery image and (c) sparse component extracted 
+from an image.
+
+![Removing random noise from images by TRPCA](images/denoiseing.png)
